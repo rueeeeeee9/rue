@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+.information {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../static/img/cityscape.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo {
+  color: #F1db25;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+span {
+  color: #F9f8e8;
+}
+nav ul li a {
+  color: #F1db25;
+  text-decoration:none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #F9f8e8;
+  transition: .4s;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1 {
+  color: #F1db25;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+h3 {
+  color: #F9f8e8;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 5px black;
+  font-weight: lighter;
+  spacing: 5px;
+}
+.Rue {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.Rue img {
+  height: auto;
+  width: 430px;
+}
+.rue-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.rue-text h2 {
+  color: #F9f8e8;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.rue-text h5 {
+  color: #F1DC61;
+  letter-spacing: 2px;
+  font-size: 17px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.rue-text p {
+  color: #F9f8e8;
+  letter-spacing: .5px;
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 45px;
+  margin-left: 45PX;
+}
+.skills {
+	background: #F9f8e8;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: #D8AC05;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #D8AC05;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #D8AC05;
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #4C4B45;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  black;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:white;
+	bottom: 35px;
+	font-size: 14px;
+}
